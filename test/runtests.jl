@@ -1,6 +1,8 @@
 using MyProject
 using Test
 
+my_calc(3,2)
+
 @testset "MyProject.jl" begin
-    # Write your tests here.
+    my_calc(3,2)
 end

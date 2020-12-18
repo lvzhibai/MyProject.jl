@@ -1,5 +1,8 @@
 module MyProject
 
-# Write your package code here.
+greet() = print("Hello World!")
 
+include("calc_file.jl")
+
+export my_calc
 end
