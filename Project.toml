@@ -1,0 +1,13 @@
+name = "MyProject"
+uuid = "7ab293e5-1bc2-415c-a536-b2f24bc50b68"
+authors = ["U_F_O <uk028764@student.uni-kassel.de> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
